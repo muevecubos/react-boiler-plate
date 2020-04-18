@@ -11,16 +11,16 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit {counter} <code>src/App.js</code> and  to reload.
+          Edit <code>src/App.js</code> and it will reload preserving state. Counter:{counter}.
         </p>
-        <button onClick={()=>setCounter(counter+1)}>hola</button>
+        <button onClick={()=>setCounter(counter+1)}>Button</button>
         <a 
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Neural network powr
+          React
         </a>
       </header>
     </div>
